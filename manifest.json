@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "cornerstone.parked",
+  "name": "Cornerstone Parked",
+  "version": "1.0.0",
+  "author": "Kush Beaver Productionz",
+  "license": "MIT",
+  "description": "Auto-hiding bar pill showing minimized windows and Hyprland special workspaces (like special:minimized and special:classifiedbench) with one-click restore or close.",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Cornerstone Parked",
+    "description": "Minimized and special-workspace windows with real app icons and one-click restore.",
+    "category": "Window Management",
+    "aliases": [
+      "parked",
+      "minimized",
+      "scratchpad",
+      "special",
+      "cornerstone-parked"
+    ],
+    "allowMultiple": false,
+    "defaultSection": "left",
+    "defaults": {}
+  }
+}
